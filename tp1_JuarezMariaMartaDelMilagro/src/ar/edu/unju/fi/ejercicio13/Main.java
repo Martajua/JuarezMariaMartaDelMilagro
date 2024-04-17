@@ -19,7 +19,7 @@ public class Main {
 			numerosEnteros[i] = leer.nextInt();
 		}
 		System.out.println("");
-		// vizualizacion de elementos del array
+		// visualizacion de elementos del array
 		for (int i = 0; i < numerosEnteros.length; i++) {
 			System.out.println("Posición " + i + ": " + numerosEnteros[i]);
 		}

@@ -18,14 +18,14 @@ public class Main {
 		// declaracion de array
 		int[] numeros = new int[tamanioArreglo];
 
-		// carga de elemtos del arreglo
+		// carga de elemetos del arreglo
 		for (int i = 0; i < numeros.length; i++) {
 			System.out.print("Ingrese elemento " + (i + 1) + ": ");
 			numeros[i] = leer.nextInt();
 		}
 
 		System.out.println("");
-		// vizualizacion de elementos del array y suma de los mismos
+		// visualizacion de elementos del array y suma de los mismos
 		for (int i = 0; i < numeros.length; i++) {
 			System.out.println("Posición " + i + ": " + numeros[i]);
 			suma += numeros[i];
