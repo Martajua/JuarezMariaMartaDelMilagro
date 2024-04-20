@@ -97,9 +97,7 @@ public class Jugador {
 	public String toString() {
 		return "Jugador [nombre=" + nombre + ", apellido=" + apellido + ", fechaNacimiento=" + fechaNacimiento
 				+ ", nacionalidad=" + nacionalidad + ", estatura=" + estatura + ", peso=" + peso + ", posicion="
-				+ posicion + "]";
+				+ posicion + ", edadPersona= " + edadPersona() + " años]";
 	}
-	
-	
 
 }
